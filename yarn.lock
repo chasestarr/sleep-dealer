@@ -3191,6 +3191,10 @@ form-data@~2.3.1:
     combined-stream "1.0.6"
     mime-types "^2.1.12"
 
+fortune-css@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/fortune-css/-/fortune-css-0.0.3.tgz#9de96215be95d9d7dfc7e66869e820474477655a"
+
 forwarded@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"

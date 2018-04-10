@@ -1,9 +1,13 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react';
+import 'fortune-css';
 
 export default class extends Component {
   render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-    </div>
+    return (
+      <div className="alert alert-success w-33">
+        <h4>sleep-dealer</h4>
+        <button onClick={() => console.log('click button')}>Button</button>
+      </div>
+    );
   }
 }
