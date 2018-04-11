@@ -1,0 +1,28 @@
+.root {
+  composes: radius-3 from 'fortune-css';
+  composes: w-33 from 'fortune-css';
+  composes: p-2 from 'fortune-css';
+  composes: m-2 from 'fortune-css';
+  background-color: white;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+}
+
+.p {
+  composes: dark from 'fortune-css';
+  composes: pb-1 from 'fortune-css';
+}
+
+.button {
+  composes: button from 'fortune-css';
+}
+
+.h4 {
+  composes: h4 from 'fortune-css';
+  composes: primary from 'fortune-css';
+}
